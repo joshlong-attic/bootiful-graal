@@ -1,0 +1,4 @@
+com/example/restservice/Greeting.class
+com/example/restservice/RestServiceApplication.class
+META-INF/spring.components
+com/example/restservice/GreetingController.class

@@ -1,0 +1,2 @@
+com.example.restservice.GreetingController=org.springframework.stereotype.Component
+com.example.restservice.RestServiceApplication=org.springframework.stereotype.Component
