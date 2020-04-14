@@ -8,6 +8,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.r2dbc.core.DatabaseClient;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 import org.springframework.web.reactive.function.server.RouterFunction;
 import org.springframework.web.reactive.function.server.ServerResponse;
@@ -25,9 +26,24 @@ public class TraditionalApplication {
 			.build();
 	}
 
+
 	@Bean
-	ApplicationRunner runner(ReservationRepository reservationRepository) {
-		return args -> reservationRepository.findAll().subscribe(System.out::println);
+	ApplicationRunner runner(DatabaseClient dbc, ReservationRepository reservationRepository) {
+		return args -> {
+
+			dbc.execute("create table reservation\n" +
+				"(\n" +
+				"    id   serial primary key,\n" +
+				"    name varchar(255) not null\n" +
+				")").fetch()
+				.rowsUpdated().subscribe();
+
+
+			reservationRepository.save(new Reservation(null ,"Andy")).subscribe();
+			reservationRepository.save(new Reservation(null ,"Sebastien")).subscribe();
+
+			reservationRepository.findAll().subscribe(System.out::println);;
+		};
 	}
 
 	public static void main(String[] args) {
