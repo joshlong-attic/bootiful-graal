@@ -28,7 +28,7 @@
   "allDeclaredConstructors":true
 },
 {
-  "name":"app.main.SampleApplication$$Lambda$491/403147759",
+  "name":"app.main.SampleApplication$$Lambda$491/29183965",
   "allDeclaredFields":true,
   "allDeclaredMethods":true,
   "methods":[{"name":"run","parameterTypes":["java.lang.String[]"] }]
@@ -1177,6 +1177,9 @@
   "methods":[{"name":"<init>","parameterTypes":["org.hibernate.tuple.entity.EntityMetamodel","org.hibernate.mapping.PersistentClass"] }]
 },
 {
+  "name":"org.reactivestreams.Publisher"
+},
+{
   "name":"org.slf4j.bridge.SLF4JBridgeHandler"
 },
 {
@@ -1631,7 +1634,7 @@
   "allDeclaredConstructors":true
 },
 {
-  "name":"org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration$$Lambda$475/902478634",
+  "name":"org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration$$Lambda$475/1803669141",
   "allDeclaredFields":true,
   "allDeclaredMethods":true,
   "methods":[{"name":"customize","parameterTypes":["org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder"] }]
@@ -1657,13 +1660,13 @@
   "allDeclaredConstructors":true
 },
 {
-  "name":"org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration$$Lambda$501/119358627",
+  "name":"org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration$$Lambda$501/311239812",
   "allDeclaredFields":true,
   "allDeclaredMethods":true,
   "methods":[{"name":"customize","parameterTypes":["org.springframework.data.web.PageableHandlerMethodArgumentResolver"] }]
 },
 {
-  "name":"org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration$$Lambda$502/873610597",
+  "name":"org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration$$Lambda$502/1297978429",
   "allDeclaredFields":true,
   "allDeclaredMethods":true,
   "methods":[{"name":"customize","parameterTypes":["org.springframework.data.web.SortHandlerMethodArgumentResolver"] }]
@@ -1952,7 +1955,7 @@
   "allDeclaredConstructors":true
 },
 {
-  "name":"org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration$$Lambda$460/1666607455",
+  "name":"org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration$$Lambda$460/1608297024",
   "allDeclaredFields":true,
   "allDeclaredMethods":true,
   "methods":[{"name":"getDataSourcePoolMetadata","parameterTypes":["javax.sql.DataSource"] }]
@@ -3560,7 +3563,7 @@
   "methods":[{"name":"projectingArgumentResolverBeanPostProcessor","parameterTypes":["org.springframework.beans.factory.ObjectFactory"] }]
 },
 {
-  "name":"org.springframework.data.web.config.ProjectingArgumentResolverRegistrar$$EnhancerBySpringCGLIB$$7103b592",
+  "name":"org.springframework.data.web.config.ProjectingArgumentResolverRegistrar$$EnhancerBySpringCGLIB$$7d92238e",
   "allDeclaredFields":true,
   "allDeclaredMethods":true,
   "allDeclaredConstructors":true,
@@ -3608,7 +3611,7 @@
   ]
 },
 {
-  "name":"org.springframework.data.web.config.SpringDataWebConfiguration$$EnhancerBySpringCGLIB$$9bf07af4",
+  "name":"org.springframework.data.web.config.SpringDataWebConfiguration$$EnhancerBySpringCGLIB$$a87ee8f0",
   "allDeclaredFields":true,
   "allDeclaredMethods":true,
   "allDeclaredConstructors":true,
@@ -3619,7 +3622,7 @@
   ]
 },
 {
-  "name":"org.springframework.data.web.config.SpringDataWebConfiguration$$EnhancerBySpringCGLIB$$9bf07af4$$FastClassBySpringCGLIB$$22ce9bf6",
+  "name":"org.springframework.data.web.config.SpringDataWebConfiguration$$EnhancerBySpringCGLIB$$a87ee8f0$$FastClassBySpringCGLIB$$63034dcd",
   "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
 },
 {
