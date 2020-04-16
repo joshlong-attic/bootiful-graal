@@ -1,6 +1,8 @@
 {
   "resources":[
     {"pattern":"\\QMETA-INF/services/java.sql.Driver\\E"}, 
+    {"pattern":"\\QMETA-INF/services/jdk.vm.ci.hotspot.HotSpotJVMCIBackendFactory\\E"}, 
+    {"pattern":"\\QMETA-INF/services/jdk.vm.ci.services.JVMCIServiceLocator\\E"}, 
     {"pattern":"\\QMETA-INF/spring-autoconfigure-metadata.properties\\E"}, 
     {"pattern":"\\QMETA-INF/spring.components\\E"}, 
     {"pattern":"\\QMETA-INF/spring.factories\\E"}, 

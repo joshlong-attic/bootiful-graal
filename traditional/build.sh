@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
 
-mvn -DskipTests=true clean package
+mvn -U clean package
 export MI=src/main/resources/META-INF
+rm -rf $MI
 mkdir -p $MI
 java -agentlib:native-image-agent=config-output-dir=src/main/resources/META-INF/native-image -jar ./target/vanilla-jpa-0.0.1.BUILD-SNAPSHOT.jar
 tree $MI
